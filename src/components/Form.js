@@ -22,7 +22,11 @@ const Form = ({inputText, setInputText, todos, setTodos}) => {
     }
     return (
         <form>
-            <input type="text" onChange={inputTextHandler} value={inputText} className="todo-input"/>
+            <input
+                type="text"
+                onChange={inputTextHandler}
+                value={inputText}
+                className="todo-input"/>
             <button onClick={inputSubmitHandler} className="todo-button" type="submit">
                 <i className="fas fa-plus-square"/>
             </button>
