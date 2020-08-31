@@ -12,6 +12,7 @@ function App() {
     useEffect(() => {
         getLocalTodos();
     },[])
+
     useEffect(() => {
         filterHandler();
         saveToLocalStorage();
