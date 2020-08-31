@@ -1,9 +1,8 @@
 import React from "react";
 
-const Form = ({inputText, setInputText, todos, setTodos, status, setStatus, filteredTodos, setFilteredTodos}) => {
+const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
 
     const inputTextHandler = e => {
-        console.log(e.target.value)
         setInputText(e.target.value)
     };
 
@@ -18,7 +17,6 @@ const Form = ({inputText, setInputText, todos, setTodos, status, setStatus, filt
             }
         ])
 
-        setFilteredTodos(todos)
         setInputText('');
     }
 

@@ -37,7 +37,6 @@ function App() {
               setInputText={setInputText}
               todos={todos}
               setTodos={setTodos}
-              status={status}
               setStatus={setStatus}
               filteredTodos={filteredTodos}
               setFilteredTodos={setFilteredTodos}
