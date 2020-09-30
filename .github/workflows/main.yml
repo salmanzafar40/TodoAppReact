@@ -1,4 +1,4 @@
-ame: Node CI
+name: React CI
 
 on: push
 
